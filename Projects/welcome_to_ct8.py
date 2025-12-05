@@ -26,5 +26,11 @@ print("\n\n")
                                                                                           
                                                                                           
                                   
-print("Now it's your turn:")
-print("Find this line (line 30) in the welcome_to_ct8.py file, then change the message to say a fact about you.")                                  
+print("Hi I am Harper")
+print("Find this line (line 30) in the welcome_to_ct8.py file, then change the message to say a fact about you.")             
+print("Two truths and a lie:")       
+print("I am 14")  
+print("My grandpa worked on the space station")          
+print("I once ran a full marathon")  
+print("Drumroll Please")
+print("The lie is 3")

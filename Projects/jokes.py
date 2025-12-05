@@ -1,0 +1,8 @@
+print("How do you make a witch itch? ")
+input("how?")
+print("You take out the W!")
+name = input("what is your name?")
+print(f"Nice to meet you {name}")
+answer = input("What did you think of my joke")
+print(f"thank you for saiyng {answer} thats good feedback.")
+print(r"hi")
