@@ -89,6 +89,7 @@ elif answer3 == "C":
     wemby_points += 2
     Lebron_points += 1
     AE_points += 1.5
+    curry_points += 1
 print("QUESTION 4")
 answer4 = input("Most common plays you run |A. Pick and Roll| |B.Dribble Hand Offs| |C. Fast Breaks| |D Isolation| |ANSWER HERE>>>| ")
 if answer4 == "A":
