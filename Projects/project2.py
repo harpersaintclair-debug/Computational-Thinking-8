@@ -13,9 +13,9 @@ wemby_points = 0
 
 
 print("WHO DO YOU PLAY LIKE")
-time.sleep(1.5)
+time.sleep(1)
 print("Answer some questions to find out(be honest)")
-time.sleep(2)
+time.sleep(1)
 print("All answers have to be CAPITOL letters with no spaces")
 time.sleep(1)
 print("Question 1:")
