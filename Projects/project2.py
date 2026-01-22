@@ -22,13 +22,13 @@ print("Question 1:")
 time.sleep(1)
 answer1 = input("Whats your most consistent shot|A. Shooting Threes| |B. Mid ranges| |C. Layups| |D. Floater| |Answer Here|:  ")
 if answer1 == "A" :
-    curry_points += 3
+    curry_points += 3.5
     AE_points += 1
-    Harden_points += 2
+    Harden_points += 2.5
     kyrie_points += 1
     Lebron_points += 1 
     Kobe_points += 1
-    wemby_points += 1
+    wemby_points += 2
 elif answer1 == "B":
     Kobe_points += 3
     Lebron_points += 2
@@ -36,24 +36,25 @@ elif answer1 == "B":
     Jokic_points += 1
     curry_points += 0.5
     AE_points += 1.5
+    wemby_points += 2
 elif answer1 == "C":
     Shaq_points += 2
-    kyrie_points += 2
-    Rodman_points += 1
+    kyrie_points += 2.5
+    Rodman_points += 2
     Kobe_points += 1.5
     Lebron_points += 1
     wemby_points += 2
-    AE_points += 2
+    AE_points += 3
 elif answer1 == "D":
     Jokic_points += 2
-    kyrie_points += 1
+    kyrie_points += 3
     curry_points += 1
     Harden_points += 1
     AE_points += 1.5
 print("QUESTION 2")
 answer2 = input("Which Is your most consistent stat.|A. Rebounding| |B. Assists| |C. Blocks| |D. Steals| |Answer|   ")
 if answer2 == "A":
-    Rodman_points += 4
+    Rodman_points += 4.5
     Shaq_points += 2.5
     Jokic_points += 2.5
     Lebron_points += 1.5
@@ -61,16 +62,18 @@ if answer2 == "A":
     wemby_points += 1
 elif answer2 == "B":
     AE_points += 1
-    Jokic_points += 2.5
+    Jokic_points += 3
     kyrie_points += 1.5
     curry_points += 1.5
     Lebron_points += 1.5
     wemby_points += 1
+    Harden_points += 1
 elif answer2 == "C":
-    wemby_points += 3
+    wemby_points += 3.5
     Lebron_points += 2
     Shaq_points += 2
-    AE_points += 2
+    AE_points += 2.5
+    kyrie_points += 1
 elif answer2 == "D":
     Kobe_points += 3
     AE_points += 2
@@ -78,18 +81,20 @@ elif answer2 == "D":
 print("QUESTION 3")
 answer3 = input("You about to play a game how do you warmup 1 day before? |A = Eating Healthy| |B = Workout| |C = Stretching| ")
 if answer3 == "A" or answer3 == "a":
-    Shaq_points += 1.5
-    Harden_points += 2
+    Shaq_points += 2.5
+    Harden_points += 2.5
 elif answer3 == "B":
     Kobe_points += 3
     Lebron_points += 1
     Shaq_points +=1
 elif answer3 == "C":
     Kobe_points += 1
-    wemby_points += 2
+    wemby_points += 2.5
     Lebron_points += 1
     AE_points += 1.5
     curry_points += 1
+    kyrie_points += 1
+    AE_points += 2
 print("QUESTION 4")
 answer4 = input("Most common plays you run |A. Pick and Roll| |B.Dribble Hand Offs| |C. Fast Breaks| |D Isolation| |ANSWER HERE>>>| ")
 if answer4 == "A":
@@ -105,20 +110,22 @@ elif answer4 == "C":
     Lebron_points += 1.5
     AE_points += 2.5
 elif answer4 == "D":
-    Harden_points += 3
+    Harden_points += 4
     Kobe_points += 2
     curry_points += 1
     wemby_points += 1
     Shaq_points += 1
+    kyrie_points += 2.5
+    AE_points += 2.5
 print("QUESTION 5")
 answer5 = input("Which is your most dominant physical aspect |A.jumping| |B.Stamina| |C.Stregth| |D.Agility|")
 if answer4 == "A":
     Shaq_points += 1
-    Rodman_points += 1.5
+    Rodman_points += 2.5
     Lebron_points += 3
     Kobe_points += 1
     AE_points += 4
-    wemby_points += 1.5
+    wemby_points += 2
 elif answer4 == "B":
     curry_points += 2.5
     Kobe_points += 2.5
@@ -130,11 +137,14 @@ elif answer4 == "C":
     Rodman_points += 2.5
     Kobe_points += 1.5
     Jokic_points += 2
+    Rodman_points += 1.5
 elif answer4 == "D":
     Kobe_points += 2.5
     curry_points += 2.5
     Lebron_points += 1.5
     AE_points += 2
+    kyrie_points += 2
+    Rodman_points += 2.5
 
 print("Are you ready for your answer!!! ")
 if Kobe_points >= Lebron_points and Kobe_points >= AE_points and Kobe_points >= Rodman_points and Kobe_points >= Harden_points and Kobe_points >= Shaq_points and Kobe_points >= Jokic_points and Kobe_points >= kyrie_points and Kobe_points >= wemby_points and Kobe_points >= curry_points:
