@@ -19,6 +19,7 @@ for i in range(6):
         output += "🟨"
     else:
         output += "⬛"
+    
 
     # Second Letter
     if guess_word[1] == hidden_word[1]:
