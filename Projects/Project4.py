@@ -1,5 +1,12 @@
 import turtle, time, random
 from utils import *
+# How to play my Cookie Clicker game
+# The goal is to get as many cookies as possible and try to reach 1 million
+# Press the space key to get a cookie but make sure you have 5 dollars first
+# Grandmas will get you more money and give you a cookie every once in a while
+# You can upgrade them as much as you want
+# You can also increase how many cookies you get per second by pressing the A key
+# That will be all now get to playing
 
 # Section 1 - setup
 set_background("Kitchen")
